@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-om-_fs%2p*3!o#3ylw508&2vb++av$zmx(di=r*=n5)(n3+&pv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','pythonanywhere.com','ashwathymanimala.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','ashwathymanimala.pythonanywhere.com']
 
 
 # Application definition
@@ -125,4 +125,3 @@ STATIC_ROOT = BASE_DIR/'static'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-USE_X_FORWARDED_HOST = True
